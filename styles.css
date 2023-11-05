@@ -1,0 +1,46 @@
+body {
+  background-color: #1A1B1E; /* This is close to Tailwind's bg-gray-900 */
+  color: #E5E7EB; /* This is close to Tailwind's text-gray-200 */
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background-color: #2D2E32; /* A slightly lighter shade for the card's background */
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25); /* Tailwind-like shadow */
+  text-align: center;
+  width: fit-content;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 9999px;
+  margin-bottom: 1rem;
+  border: 3px solid #4A5568; /* A border color similar to Tailwind's gray-600 */
+}
+
+h3, p, h4 {
+  margin: 0;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.25rem;
+  color: #E5E7EB; /* This is close to Tailwind's text-gray-200 */
+}
+
+p {
+  color: #A0AEC0; /* This is close to Tailwind's text-blue-400 */
+}
+
+h4 {
+  font-size: 0.875rem;
+  color: #CBD5E0; /* This is close to Tailwind's text-gray-300 */
+}
